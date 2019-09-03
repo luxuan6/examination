@@ -30,7 +30,7 @@
     "jest",
     "src/setupTests.ts"
   ],
-    "rules":{
+  "rules":{
     "ordered-imports":[
       true,
       {
@@ -39,5 +39,4 @@
       }
     ]
   }
-
 }

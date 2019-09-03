@@ -1,12 +1,13 @@
-import { Layout, Menu, Breadcrumb, Icon } from 'antd';
 import * as React from 'react'
-
+import { Layout, Menu, Breadcrumb, Icon } from 'antd';
+const { Header, Content, Footer, Sider } = Layout;
+const { SubMenu } = Menu;
  class Home extends React.Component{
-   state = {
+  state = {
     collapsed: false,
   };
 
-  onCollapse = (collapsed:boolean) => {
+  onCollapse = (collapsed:any) => {
     console.log(collapsed);
     this.setState({ collapsed });
   };
@@ -110,7 +111,14 @@ export default Home
 // const { SubMenu } = Menu;
 
 // export default class home extends React.Component {
+//   state = {
+//     collapsed: false,
+//   };
 
+//   onCollapse = collapsed => {
+//     console.log(collapsed);
+//     this.setState({ collapsed });
+//   };
 
 //   render() {
 //     return (
